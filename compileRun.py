@@ -7,6 +7,8 @@ class main():
 
 		for file in glob.glob("*.c"):
 			filename = file
+		if (len(filename)) < 1:
+			filename = glob.glob("*.py")
 			return filename
 		
 	def enterCommand(self, filename):

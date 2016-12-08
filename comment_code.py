@@ -33,6 +33,8 @@ class main():
 				for line in src:
 					chars = len(line)
 					print("\n")
+					print("%d Lines to go" %lines)
+					lines -= 1
 					print(line)
 					u_input = input("Describe the above line of code: " )	
 					if (len(u_input) < 1):
