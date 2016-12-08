@@ -1,8 +1,8 @@
 #!/usr/bin/python
 """
-Author: Derek Laker
+@Author: Derek Laker
 Special Thanks To: Shane Sorensen
-Description: Quick commenting script for the lazy. Sample output in the readme.md
+@Description: Quick commenting script for the lazy. Sample output in the readme.md
 Version: python 3
 """
 
