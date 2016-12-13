@@ -41,6 +41,7 @@ def enterCommand(filename):
 		print("compiling ", filename)
 		newfile = filename.strip('.cpp')
 		os.system("g++ -o %s %s" %(newfile, filename))
+
 class main():
 	filename = getFile()
 	enterCommand(filename)
