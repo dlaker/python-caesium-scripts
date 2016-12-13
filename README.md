@@ -15,8 +15,8 @@ To link to vim:
 
 	first you must symlink compileRun.py so you can run it anywhere on your Linux system
 	To do this type:
-	$ sudo ln -s /path/to/pythonfile.py /usr/local/bin
-	$ echo "command T !/path/to/compileRun.py" >> ~/.vimrc
+	$ sudo ln -s /path/to/pythonfile.py /usr/local/bin/compileRun
+	$ echo "command T !compileRun" >> ~/.vimrc
 
 
 Notes:
