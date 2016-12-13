@@ -18,7 +18,6 @@ To link to vim:
 	$ sudo ln -s /path/to/pythonfile.py /usr/local/bin/compileRun
 	$ echo "command T !compileRun" >> ~/.vimrc
 
-
 Notes:
 	This can also be used to compile/run other types of files as well.
 	In order to do this edit the source code with another glob block and put in the desired file extension
