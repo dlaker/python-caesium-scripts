@@ -24,7 +24,8 @@ Notes:
 	You will also have to add in a new if check to see what the filetype is and run the desired command accordingly
 	
 	Example:
-		```python
+		python code
+
 		if (glob.glob("*.sh") != []):
 			return [x for x in glob.glob("*.sh")]
 		else:
@@ -37,5 +38,3 @@ Notes:
 			os.system("bash %s" %(filename))
 		else:
 			pass
-		```
-
