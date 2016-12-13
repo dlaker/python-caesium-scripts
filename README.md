@@ -1,11 +1,15 @@
 # python-caesium-scripts
 caesium is the name of my laptop for those who are confused.
 
-##comment_code.py description
-specific style commenting for source code
-
 ##compileRun.py description
 compiles .py, .c, .cpp files
+
+To install:
+	git clone https://github.com/dereklaker/python-caesium-scripts/ <target dir (optional)>
+
+Explanation:
+	This works by adding a custom command to your vimrc that runs the python file at the current directory
+	From there the script does the rest of the work for you! 
 
 To link to vim:
 
@@ -14,9 +18,6 @@ To link to vim:
 	$ sudo ln -s /path/to/pythonfile.py /usr/local/bin
 	$ echo "command T !/path/to/compileRun.py" >> ~/.vimrc
 
-Explanation:
-	This works by adding a custom command to your vimrc that runs the python file at the current directory
-	From there the script does the rest of the work for you! 
 
 Notes:
 	This can also be used to compile/run other types of files as well.
@@ -38,3 +39,9 @@ Notes:
 			os.system("bash %s" %(filename))
 		else:
 			pass
+
+##comment_code.py description
+specific style commenting for source code
+see Shane's Github for more information
+http://github.com/Sorensen0303
+
